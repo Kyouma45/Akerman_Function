@@ -5,7 +5,7 @@ using namespace std;
 class Math
 {
 public:
-    long Akerman(long m, long n)
+    unsigned long Akerman(unsigned long m, unsigned long n)
     {
         if (m > 0 && n > 0)
         {
@@ -25,12 +25,12 @@ public:
 int main()
 {
     Math m1;
-    long p, q;
+    unsigned long p, q;
     cout << "Enter M: ";
     cin >> p;
     cout << "Enter N: ";
     cin >> q;
-    long t = m1.Akerman(p, q);
+    unsigned long t = m1.Akerman(p, q);
     cout << t << endl;
     return 0;
 }
